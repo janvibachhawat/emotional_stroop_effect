@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2023.1.3">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="False" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1536, 864]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="emotional stroop effect" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <PolygonComponent name="fixation" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(10, 10)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="time (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="$colour" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="time (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'g','b','r'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$corr_resp" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instructions">
+      <TextComponent name="text_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Welcome&amp;#10;&amp;#10;Here a word will come up and you are supposed to press 'r','g' or 'b' for the respective fonts that the word is in.&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'word': 'joy', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'love', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'happiness', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'gratitude', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'peace', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'hope', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'laughter', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'bliss', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'euphoria', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'amusement', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'adore', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'delight', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'excitement', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'pleasure', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'enthusiasm ', 'colour': 'red', 'corr_resp': 'r', 'valence': 'positive'}, {'word': 'chair', 'colour': 'red', 'corr_resp': 'r', 'valence': 'neutral'}, {'word': 'table', 'colour': 'red', 'corr_resp': 'r', 'valence': 'neutral'}, {'word': 'paper', 'colour': 'red', 'corr_resp': 'r', 'valence': 'neutral'}, {'word': 'pencil', 'colour': 'red', 'corr_resp': 'r', 'valence': 'neutral'}, {'word': 'window', 'colour': 'red', 'corr_resp': 'r', 'valence': 'neutral'}, {'word': 'carpet', 'colour': 'red', 'corr_resp': 'r', 'valence': 'neutral'}, {'word': 'door', 'colour': 'red', 'corr_resp': 'r', 'valence': 'neutral'}, {'word': 'lamp', 'colour': 'red', 'corr_resp': 'r', 'valence': 'neutral'}, {'word': 'computer', 'colour': 'red', 'corr_resp': 'r', 'valence': 'neutral'}, {'word': 'keyboard', 'colour': 'red', 'corr_resp': 'r', 'valence': 'neutral'}, {'word': 'book', 'colour': 'red', 'corr_resp': 'r', 'valence': 'neutral'}, {'word': 'pen', 'colour': 'red', 'corr_resp': 'r', 'valence': 'neutral'}, {'word': 'clock', 'colour': 'red', 'corr_resp': 'r', 'valence': 'neutral'}, {'word': 'monitor', 'colour': 'red', 'corr_resp': 'r', 'valence': 'neutral'}, {'word': 'sadness', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'fear', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'anger', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'grief', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'depression', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'anxiety', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'pain', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'lonliness', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'betrayal', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'disgust', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'guilt', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'hatred', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'regret', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'suffering', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'stress', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'trauma', 'colour': 'red', 'corr_resp': 'r', 'valence': 'negative'}, {'word': 'joy', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'love', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'happiness', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'gratitude', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'peace', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'hope', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'laughter', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'bliss', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'euphoria', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'amusement', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'adore', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'delight', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'excitement', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'pleasure', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'enthusiasm ', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'positive'}, {'word': 'chair', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'neutral'}, {'word': 'table', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'neutral'}, {'word': 'paper', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'neutral'}, {'word': 'pencil', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'neutral'}, {'word': 'window', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'neutral'}, {'word': 'carpet', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'neutral'}, {'word': 'door', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'neutral'}, {'word': 'lamp', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'neutral'}, {'word': 'computer', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'neutral'}, {'word': 'keyboard', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'neutral'}, {'word': 'book', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'neutral'}, {'word': 'pen', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'neutral'}, {'word': 'clock', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'neutral'}, {'word': 'monitor', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'neutral'}, {'word': 'sadness', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'fear', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'anger', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'grief', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'depression', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'anxiety', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'pain', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'lonliness', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'betrayal', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'disgust', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'guilt', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'hatred', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'regret', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'suffering', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'stress', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'trauma', 'colour': 'blue', 'corr_resp': 'b', 'valence': 'negative'}, {'word': 'joy', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'love', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'happiness', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'gratitude', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'peace', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'hope', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'laughter', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'bliss', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'euphoria', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'amusement', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'adore', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'delight', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'excitement', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'pleasure', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'enthusiasm ', 'colour': 'green', 'corr_resp': 'g', 'valence': 'positive'}, {'word': 'chair', 'colour': 'green', 'corr_resp': 'g', 'valence': 'neutral'}, {'word': 'table', 'colour': 'green', 'corr_resp': 'g', 'valence': 'neutral'}, {'word': 'paper', 'colour': 'green', 'corr_resp': 'g', 'valence': 'neutral'}, {'word': 'pencil', 'colour': 'green', 'corr_resp': 'g', 'valence': 'neutral'}, {'word': 'window', 'colour': 'green', 'corr_resp': 'g', 'valence': 'neutral'}, {'word': 'carpet', 'colour': 'green', 'corr_resp': 'g', 'valence': 'neutral'}, {'word': 'door', 'colour': 'green', 'corr_resp': 'g', 'valence': 'neutral'}, {'word': 'lamp', 'colour': 'green', 'corr_resp': 'g', 'valence': 'neutral'}, {'word': 'computer', 'colour': 'green', 'corr_resp': 'g', 'valence': 'neutral'}, {'word': 'keyboard', 'colour': 'green', 'corr_resp': 'g', 'valence': 'neutral'}, {'word': 'book', 'colour': 'green', 'corr_resp': 'g', 'valence': 'neutral'}, {'word': 'pen', 'colour': 'green', 'corr_resp': 'g', 'valence': 'neutral'}, {'word': 'clock', 'colour': 'green', 'corr_resp': 'g', 'valence': 'neutral'}, {'word': 'monitor', 'colour': 'green', 'corr_resp': 'g', 'valence': 'neutral'}, {'word': 'sadness', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'fear', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'anger', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'grief', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'depression', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'anxiety', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'pain', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'lonliness', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'betrayal', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'disgust', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'guilt', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'hatred', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'regret', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'suffering', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'stress', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}, {'word': 'trauma', 'colour': 'green', 'corr_resp': 'g', 'valence': 'negative'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="data/lab_assignment.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>
